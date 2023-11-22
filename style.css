@@ -57,3 +57,7 @@
     font-size: 20px;
     text-transform: lowercase;
 }
+.content h2{
+    color:red;
+    text-decoration: underline;
+}
