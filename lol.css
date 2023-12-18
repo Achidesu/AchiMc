@@ -1,0 +1,6 @@
+body {
+    background-color: #000000; /* Black color */
+    color: #ffffff; /* Text color (white) for better visibility on black background */
+    /* Add additional styles as needed */
+    font-family: 'poppins',sans-serif;
+}

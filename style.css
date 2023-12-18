@@ -1,4 +1,5 @@
 *
+
 {
     margin: 0;
     padding: 0;
@@ -8,14 +9,19 @@
 .container{
     width: 100vw;
     height: 100vh;
-    background-image: url(images/background.png);
-    background-position: center;
-    background-size: cover;
-    padding: 0 8%;
+    padding: 0 6%;
     position: relative;
 }   
+body {
+    background-color: #000000; /* Change this to the desired background color */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .logo{
-    width: 120px;
+    width: 100px;
     padding: 10px 0%;
     cursor: pointer;
     position: absolute;
@@ -57,3 +63,70 @@
     font-size: 20px;
     text-transform: lowercase;
 }
+.discord-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.discord-logo {
+    width: 52px;
+    height: 42px;
+}
+
+/* Style the navbar */
+.navbar {
+    overflow: hidden;
+    background-color: #000000; /* Background color */
+    position: fixed; /* Fixed position on top */
+    width: 100%; /* Full width */
+    top: 0; /* Top of the page */
+}
+
+/* Style the links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: white; /* Text color */
+    text-align: center;
+    padding: 14px 20px; /* Padding */
+    text-decoration: none; /* Remove underline */
+    margin-right: 20px; /* Adjust the right margin between items */
+    border-radius: 20px; /* Make the buttons round */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
+}
+
+/* Change color and background on hover */
+.navbar a:hover {
+    background-color: #ddd; /* Background color on hover */
+    color: black; /* Text color on hover */
+}
+/* Styles for the Discord button */
+.discord-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #000000; /* Discord color */
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000; /* Discord color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Style for the Discord logo inside the button */
+.discord-img {
+    width: 23px; /* Adjust the width of the image */
+    height: 18px; /* Adjust the height of the image */
+    vertical-align: middle;
+    margin-right: 5px; /* Adjust the spacing between image and text */
+}
+
+/* Style for the text inside the Discord button */
+.discord-text {
+    vertical-align: middle;
+}
+/* Hover effect for the Discord button */
+.discord-button:hover {
+    background-color: #7289DA; /* Discord color on hover */
+    color: #fff; /* Text color on hover */
+}
+
