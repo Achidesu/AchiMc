@@ -42,7 +42,7 @@ body {
     transform: translateY(-50%);
 }
 .content h1 span{
-    color: #9300ff;
+    color: red;
     text-decoration: underline;
 }
 .content h1{
@@ -79,7 +79,7 @@ body {
     overflow: hidden;
     background-color: #000000; /* Background color */
     position: fixed; /* Fixed position on top */
-    width: 100%; /* Full width */
+    width: 85%; /* Full width */
     top: 0; /* Top of the page */
 }
 
@@ -91,7 +91,7 @@ body {
     text-align: center;
     padding: 14px 20px; /* Padding */
     text-decoration: none; /* Remove underline */
-    margin-right: 20px; /* Adjust the right margin between items */
+    margin-right: 10px; /* Adjust the right margin between items */
     border-radius: 20px; /* Make the buttons round */
     transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
 }
